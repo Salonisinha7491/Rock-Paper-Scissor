@@ -1,0 +1,47 @@
+
+body{
+    background-color: #052f41;
+    }
+.selections{
+    display: flex;
+    justify-content: center;
+   
+}
+.selection{
+    border: none;
+    background: none;
+    outline: none;
+    font-size: 10rem;
+    cursor: pointer;
+    background-color: tomato;
+    transition: 100ms;
+    
+}
+.selection:hover{
+    transform: scale(1.2);
+}
+.result{
+    margin-top: 20px;
+    color: #fff;
+    display: grid;
+    justify-content: center;
+    grid-template-columns:repeat(2,1fr) ;
+    font-size: 2rem;
+    align-items: center;
+    justify-items: center;
+}
+.result_score{
+     margin-left: 5rem;
+     font-size: 40px;
+
+}
+.choose_winner{
+    opacity: 1;
+    margin-top: 12px;
+    font-size: 50px;
+}
+.choose{
+    margin-top: 12px;
+    opacity: 0.5;
+}
+
